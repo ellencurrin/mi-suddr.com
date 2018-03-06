@@ -1,0 +1,24 @@
+		<tr>
+			<td class="l">Max Color</td>
+			<td class="n" style="position:relative">
+				<div style="position:absolute; z-index:1000; top:0px; height:30px; padding-top:6px;">
+					<?php $val = ($e ? $e["details"]["maxColor"] : "#43A2CA"); ?>
+					<input name="maxColor" type="text" value="<?php echo $val; ?>" class="my-color-field" />
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="l">Min Color</td>
+			<td class="n" style="position:relative">
+				<div style="position:absolute; z-index:900; top:0px; height:30px; padding-top:6px;">
+					<?php $val = ($e ? $e["details"]["minColor"] : "#E0F3DB"); ?>
+					<input name="minColor" type="text" value="<?php echo $val; ?>" class="my-color-field" />
+				</div>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td colspan="2" style="">BASIC INFORMATION</td>
+		</tr>

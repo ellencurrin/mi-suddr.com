@@ -1,0 +1,78 @@
+[17-Apr-2014 15:00:38 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[17-Apr-2014 22:20:39 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[06-May-2015 01:25:46 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[06-May-2015 01:25:46 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[29-May-2015 11:19:40 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-May-2015 11:20:34 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[22-Jun-2015 13:21:13 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[22-Jun-2015 13:21:40 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[22-Jun-2015 13:21:40 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[23-Jun-2015 10:31:25 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[23-Jun-2015 10:31:25 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[28-Jun-2015 23:03:00 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2015 23:03:00 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[30-Jun-2015 14:40:25 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Jun-2015 14:40:25 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[02-Jul-2015 18:43:51 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[02-Jul-2015 18:43:51 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[11-Aug-2015 00:34:59 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Aug-2015 15:30:44 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Aug-2015 15:30:44 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[19-Aug-2015 18:20:22 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Aug-2015 18:20:22 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[21-Aug-2015 08:49:04 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Aug-2015 08:49:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[23-Aug-2015 22:33:27 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[23-Aug-2015 22:33:27 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[30-Aug-2015 18:24:10 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Aug-2015 18:24:10 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[09-Sep-2015 23:38:50 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Sep-2015 23:38:50 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[09-Sep-2015 23:39:44 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Sep-2015 23:39:50 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Sep-2015 23:39:50 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[26-Sep-2015 20:45:18 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[26-Sep-2015 20:45:18 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[26-Sep-2015 20:46:59 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Oct-2015 23:40:14 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Oct-2015 23:40:14 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[14-Oct-2015 23:40:45 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Oct-2015 19:02:17 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Oct-2015 19:02:17 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[16-Oct-2015 19:02:55 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Oct-2015 15:48:58 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Oct-2015 15:48:58 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[21-Oct-2015 15:49:26 America/Denver] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Jan-2016 15:19:50 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[31-Jan-2016 13:56:23 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[12-Feb-2016 13:40:37 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[12-Feb-2016 13:40:39 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[20-Feb-2016 12:50:29 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[20-Feb-2016 15:39:17 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[03-Mar-2016 13:55:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[15-Mar-2016 02:55:45 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[15-Mar-2016 02:56:01 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[27-Apr-2016 14:15:47 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[01-May-2016 14:45:55 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[26-May-2016 22:44:56 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[27-May-2016 01:18:07 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[19-Nov-2016 07:04:48 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[19-Nov-2016 07:04:51 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[10-Jan-2017 09:27:56 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[01-Feb-2017 09:34:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[02-Feb-2017 07:50:13 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[27-Feb-2017 12:10:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[19-Apr-2017 16:37:47 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[25-May-2017 19:12:49 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[28-May-2017 15:03:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[25-Sep-2017 09:00:41 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[18-Oct-2017 16:52:09 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[06-Nov-2017 05:43:05 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[06-Nov-2017 05:43:07 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[07-Nov-2017 20:15:11 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[16-Nov-2017 07:41:57 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[25-Nov-2017 06:15:30 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[25-Nov-2017 06:15:37 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[12-Jan-2018 07:29:36 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[12-Jan-2018 21:27:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60
+[05-Feb-2018 22:20:43 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/misuddrc/public_html/wp-content/plugins/hello.php on line 60

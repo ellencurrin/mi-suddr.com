@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first Chartist Tests</title>
+	<script src="chartist/chartist.js"></script>
+    <link rel="stylesheet" href="chartist/chartist.css">
+
+  </head>
+  <body>
+	  <div class="ct-chart ct-golden-section"></div>
+	 <script>
+		 var chart = new Chartist.Line('.ct-chart', {
+		   labels: [1, 2, 3, 4, 5],
+		   series: [ [1,2,3,4,5]
+		   ]
+		 }, {
+		   fullWidth: true,
+		   chartPadding: {
+		     right: 10
+		   },
+		   lineSmooth: Chartist.Interpolation.cardinal({
+		     fillHoles: true,
+		   }),
+		   low: 0
+		 });
+		 
+	</script>	  
+  </body>
+</html>

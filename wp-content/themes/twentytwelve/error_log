@@ -1,0 +1,16 @@
+[19-Apr-2016 14:23:58 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/author.php on line 14
+[22-Apr-2016 23:58:12 America/Denver] PHP Fatal error:  Call to undefined function do_action() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/footer.php on line 15
+[27-Apr-2016 14:15:50 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[01-May-2016 14:46:00 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[19-May-2016 03:17:49 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/search.php on line 10
+[26-May-2016 22:44:56 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[27-May-2016 01:18:07 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[08-Jul-2016 12:12:29 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[18-Nov-2016 21:41:51 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[18-Nov-2016 21:41:52 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[01-Feb-2017 09:34:04 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/author.php on line 14
+[02-Feb-2017 07:50:13 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/author.php on line 14
+[04-Mar-2017 14:27:42 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/author.php on line 14
+[05-Mar-2017 13:47:09 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/search.php on line 10
+[07-Mar-2017 18:04:02 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[18-Oct-2017 16:52:09 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentytwelve/404.php on line 10

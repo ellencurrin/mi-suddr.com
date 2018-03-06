@@ -1,0 +1,158 @@
+html,body{
+	height:100%;
+	width:100%;
+	background:#AfAfAf;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font:normal normal 10px Arial, sans-serif;
+	}
+#sidebar{
+	padding:10px;
+	width:300px;
+	margin:10px;
+	border:2px solid #DdDdDd;
+	position:absolute;
+	right:0px;
+	top:0px;
+	overflow-y:scroll;
+	z-index:900;
+ 	}
+#map{
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding:10px;
+	}
+#m_opts{
+	
+	}
+.section{
+	overflow:visible;
+	float:left;
+	padding:10px 0px 5px;
+	border-top:1px solid white;
+	width:100%;
+	position:relative;
+	}
+.brownie{
+	float:right;
+	overflow:visible;	
+	list-style:none;
+	width:100%;
+	padding:0px 0px 5px;
+	margin:0px;
+	position:relative;
+	}
+.brownie dd{
+	width:5px;
+	height:100%;
+	float:left;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	display:block;
+	transition:200ms;
+	}
+.brownie dt{
+	width:45px;
+	position:absolute;
+	left:-50px;
+	top:50%;
+	height:12px;
+	font-size:12px;
+	line-height:12px;
+	margin:-6px 0px 0px;	
+	padding:0px 0px;
+	text-align:right;
+	}
+.brownie dd:hover{
+	outline:1px solid white;
+	z-index:10;	
+	}
+
+.section h5{
+	font-size:12px;
+	font-weight:bold;	
+	text-transform:uppercase;
+	line-height:1;
+	padding:0px 0px 10px;
+	margin:0;
+	}
+
+#sidebar h4{
+	color:white;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+	padding:5px 0px;
+	margin:0px;
+	}
+#ttip{
+	position:absolute;
+	z-index:1000;
+	background:white;
+	padding:5px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.6);
+	width:100px;
+	left:-400em;
+	top:-200em;
+	}	
+#ttip dt{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:gray;
+	position:static;
+	padding:0;
+	margin:0;
+	width:auto;
+	height:auto;
+	text-align:center;
+	}
+#ttip dd{
+	padding:0px;
+	margin:3px 0px 0px;
+	font-size:20px;
+	text-align:center;
+	float:none;
+	width:100%;
+	}
+	
+path{
+	stroke:#666666; 
+	cursor:pointer;
+	transition:100ms;
+	-webkit-transition:100ms;
+	}
+path:hover, #highlight{
+	stroke:#FF0000; 
+	}
+#hightlight{
+	stroke-width:6px;
+	z-index:100;
+	}
+#popup{
+	height:20px;
+	line-height:20px;
+	background:white;
+	position:absolute;
+	display:none;
+	font-weight:bold;
+	font-size:14px;
+	border:2px solid gray;
+	box-shadow:1px 1px 4px;
+	padding:10px;
+	z-index:1000;
+	}
+#instructions{
+	padding:10px;
+	width:300px;
+	margin:10px;
+	border:2px solid #DdDdDd;
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:1000;
+	background:#AfAfAf;;
+	}

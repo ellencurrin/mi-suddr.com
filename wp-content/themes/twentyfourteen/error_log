@@ -1,0 +1,13 @@
+[27-Mar-2016 12:55:22 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/single.php on line 10
+[27-Mar-2016 12:55:22 America/Denver] PHP Fatal error:  Call to undefined function do_action() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/featured-content.php on line 19
+[27-Apr-2016 14:15:48 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[01-May-2016 14:45:59 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[26-May-2016 22:44:57 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[27-May-2016 01:18:08 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[18-Nov-2016 18:27:50 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[18-Nov-2016 18:27:51 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[04-Mar-2017 12:58:02 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[06-Mar-2017 05:13:00 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[18-Oct-2017 16:52:08 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/404.php on line 10
+[07-Feb-2018 12:44:05 America/Denver] PHP Fatal error:  Call to undefined function post_password_required() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/comments.php on line 16
+[07-Feb-2018 12:44:06 America/Denver] PHP Fatal error:  Call to undefined function post_password_required() in /home4/misuddrc/public_html/wp-content/themes/twentyfourteen/comments.php on line 16

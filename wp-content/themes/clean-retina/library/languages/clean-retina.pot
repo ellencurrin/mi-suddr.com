@@ -1,0 +1,780 @@
+# Clean Retina WordPress Theme. Translation template file.
+# This file is distributed under the same license as the Clean Retina Theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Retina\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-21 13:05+0530\n"
+"PO-Revision-Date: 2016-03-21 13:05+0530\n"
+"Last-Translator: \n"
+"Language-Team: Team Horse <support@themehorse.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: English\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_x;_n\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:133
+msgid "Primary Menu"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:19
+#: library/admin/cleanretina-custom-post-types.php:20
+msgid "Gallery"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:21
+msgid "All Galleries"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:22
+#: library/admin/cleanretina-custom-post-types.php:23
+msgid "Add New"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:24
+msgid "Edit Gallery"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:25
+msgid "New Gallery"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:26
+msgid "View Gallery"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:27
+msgid "search Gallery"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:28
+msgid "No Gallery Found"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:29
+msgid "No Gallery found in Trash"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:30
+msgid "Parent Gallery:"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:31
+msgid "Galleries"
+msgstr ""
+
+#: library/admin/cleanretina-custom-post-types.php:36
+msgid "Custom Gallery Posts"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:19
+msgid "Select layout for this specific Page only ( Note: This setting only reflects if page Template is set as Default Template.)"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:25
+msgid "Select layout for this specific Post only"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:38
+msgid "Default Layout Set in"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:38
+msgid "Customizer"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:44
+msgid "No sidebar"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:50
+msgid "No sidebar, Full Width"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:56
+msgid "No Sidebar, One Column"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:62
+msgid "Left sidebar"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:68
+msgid "Right sidebar"
+msgstr ""
+
+#: library/footer_info/cleanretina-footer_info.php:34
+msgid "WordPress"
+msgstr ""
+
+#: library/footer_info/cleanretina-footer_info.php:42
+msgid "Theme Horse"
+msgstr ""
+
+#: library/functions/customizer.php:11
+#: library/functions/customizer.php:12
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: library/functions/customizer.php:14
+#: library/functions/customizer.php:15
+msgid "Donate"
+msgstr ""
+
+#: library/functions/customizer.php:17
+msgid "Review Clean Retina"
+msgstr ""
+
+#: library/functions/customizer.php:18
+msgid "Rate Clean Retina"
+msgstr ""
+
+#: library/functions/customizer.php:20
+msgid "Clean Retina Theme Instructions"
+msgstr ""
+
+#: library/functions/customizer.php:21
+msgid "Theme Instructions"
+msgstr ""
+
+#: library/functions/customizer.php:23
+#: library/functions/customizer.php:24
+msgid "Support Forum"
+msgstr ""
+
+#: library/functions/customizer.php:26
+msgid "Clean Retina Demo"
+msgstr ""
+
+#: library/functions/customizer.php:27
+msgid "View Demo"
+msgstr ""
+
+#: library/functions/customizer.php:35
+msgid "Upgrade to CleanRetina Pro"
+msgstr ""
+
+#: library/functions/customizer.php:36
+#: library/functions/customizer.php:808
+msgid "Upgrade to Clean Retina Pro"
+msgstr ""
+
+#: library/functions/customizer.php:37
+msgid "to get more aditional features like (Advanced Slider, Color Options, Typography Options and many more.)"
+msgstr ""
+
+#: library/functions/customizer.php:56
+msgid "--Disabled--"
+msgstr ""
+
+#: library/functions/customizer.php:73
+msgid "Design Options"
+msgstr ""
+
+#: library/functions/customizer.php:79
+msgid "Advanced Options"
+msgstr ""
+
+#: library/functions/customizer.php:85
+#: library/functions/customizer.php:540
+msgid "Featured Post/ Page Slider"
+msgstr ""
+
+#: library/functions/customizer.php:91
+msgid "What is new on Clean Retina Pro?"
+msgstr ""
+
+#: library/functions/customizer.php:104
+#: library/functions/customizer.php:125
+msgid "Clean Retina Upgrade"
+msgstr ""
+
+#: library/functions/customizer.php:111
+msgid "Clean Retina Support"
+msgstr ""
+
+#: library/functions/customizer.php:112
+msgid "Hey! Buy us a beer and we shall come with new features and update. "
+msgstr ""
+
+#: library/functions/customizer.php:134
+msgid "Custom Header"
+msgstr ""
+
+#: library/functions/customizer.php:145
+msgid "Hide Searchform from Header"
+msgstr ""
+
+#: library/functions/customizer.php:152
+msgid "Fav Icon Options"
+msgstr ""
+
+#: library/functions/customizer.php:163
+msgid "Disable Favicon"
+msgstr ""
+
+#: library/functions/customizer.php:185
+msgid "Web Clip Icon Options"
+msgstr ""
+
+#: library/functions/customizer.php:196
+msgid "Disable Web Clip Icon"
+msgstr ""
+
+#: library/functions/customizer.php:218
+msgid "Default Layout Options"
+msgstr ""
+
+#: library/functions/customizer.php:234
+#: library/functions/customizer.php:262
+msgid "No Sidebar"
+msgstr ""
+
+#: library/functions/customizer.php:235
+#: library/functions/customizer.php:263
+msgid "No Sidebar, Full Width"
+msgstr ""
+
+#: library/functions/customizer.php:237
+#: library/functions/customizer.php:265
+msgid "Left Sidebar"
+msgstr ""
+
+#: library/functions/customizer.php:238
+#: library/functions/customizer.php:266
+msgid "Right Sidebar"
+msgstr ""
+
+#: library/functions/customizer.php:243
+msgid "Home Page Layout Options"
+msgstr ""
+
+#: library/functions/customizer.php:254
+msgid "Layout Display Type on Home Page"
+msgstr ""
+
+#: library/functions/customizer.php:255
+msgid "To select one of these layouts, Latest Posts should be checked in Reading sub-menu of Settings menu. Go to Settings->Reading->Check on Your Latest Posts"
+msgstr ""
+
+#: library/functions/customizer.php:255
+msgid "If you chose the corporate layout then you will have to add corporate layout content from Home Corporate Layout option under Advanced Options Tab."
+msgstr ""
+
+#: library/functions/customizer.php:267
+msgid "Corporate Layout"
+msgstr ""
+
+#: library/functions/customizer.php:278
+msgid "Blog Display Type on Home Page"
+msgstr ""
+
+#: library/functions/customizer.php:285
+msgid "Blog Image Large"
+msgstr ""
+
+#: library/functions/customizer.php:286
+msgid "Blog Image Medium"
+msgstr ""
+
+#: library/functions/customizer.php:287
+msgid "Blog Full Content"
+msgstr ""
+
+#: library/functions/customizer.php:292
+msgid "Custom CSS"
+msgstr ""
+
+#: library/functions/customizer.php:293
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr ""
+
+#: library/functions/customizer.php:311
+msgid "Home Slogan Options"
+msgstr ""
+
+#: library/functions/customizer.php:322
+msgid "Disable Slogan Part"
+msgstr ""
+
+#: library/functions/customizer.php:334
+msgid "Slogan Position"
+msgstr ""
+
+#: library/functions/customizer.php:340
+msgid "Above Slider"
+msgstr ""
+
+#: library/functions/customizer.php:341
+msgid "Below Slider"
+msgstr ""
+
+#: library/functions/customizer.php:351
+msgid "Home Page Slogan1"
+msgstr ""
+
+#: library/functions/customizer.php:352
+#: library/functions/customizer.php:365
+msgid "The appropriate length of the slogan is around 10 words."
+msgstr ""
+
+#: library/functions/customizer.php:364
+msgid "Home Page Slogan2"
+msgstr ""
+
+#: library/functions/customizer.php:372
+msgid "Homes Corporate Type Layout Options"
+msgstr ""
+
+#: library/functions/customizer.php:384
+msgid "Corporate Content Title"
+msgstr ""
+
+#: library/functions/customizer.php:403
+msgid "Featured Box #"
+msgstr ""
+
+#: library/functions/customizer.php:404
+msgid "Upload Icon Image"
+msgstr ""
+
+#: library/functions/customizer.php:418
+msgid "Redirect Link"
+msgstr ""
+
+#: library/functions/customizer.php:431
+msgid "Title"
+msgstr ""
+
+#: library/functions/customizer.php:444
+msgid "Description"
+msgstr ""
+
+#: library/functions/customizer.php:452
+msgid "Corporate Page Template Options"
+msgstr ""
+
+#: library/functions/customizer.php:453
+msgid "Settings used on pages that use the \"Corporate Template\" page template. This template must be assigned to a page before its settings take effect."
+msgstr ""
+
+#: library/functions/customizer.php:467
+msgid "Page #"
+msgstr ""
+
+#: library/functions/customizer.php:475
+msgid "Excerpt Options"
+msgstr ""
+
+#: library/functions/customizer.php:486
+msgid "Excerpt Length"
+msgstr ""
+
+#: library/functions/customizer.php:487
+msgid "Default value for excerpt length is 30 words."
+msgstr ""
+
+#: library/functions/customizer.php:494
+msgid "Feed Redirect"
+msgstr ""
+
+#: library/functions/customizer.php:505
+msgid "Feed Redirect URL"
+msgstr ""
+
+#: library/functions/customizer.php:513
+msgid "Homepage / Frontpage Category Setting"
+msgstr ""
+
+#: library/functions/customizer.php:514
+msgid "Only posts that belong to the categories selected here will be displayed on the front page. ( You may select multiple categories by holding down the CTRL key. ) "
+msgstr ""
+
+#: library/functions/customizer.php:529
+msgid "Front page posts categories"
+msgstr ""
+
+#: library/functions/customizer.php:552
+msgid "Disable Slider"
+msgstr ""
+
+#: library/functions/customizer.php:565
+msgid "Number of Slides"
+msgstr ""
+
+#: library/functions/customizer.php:566
+msgid "Please refresh the page to display effect on Slider Quantity"
+msgstr ""
+
+#: library/functions/customizer.php:579
+msgid "Transition Effect"
+msgstr ""
+
+#: library/functions/customizer.php:584
+msgid "Fade"
+msgstr ""
+
+#: library/functions/customizer.php:585
+msgid "Wipe"
+msgstr ""
+
+#: library/functions/customizer.php:586
+msgid "Scroll Up"
+msgstr ""
+
+#: library/functions/customizer.php:587
+msgid "Scroll Down"
+msgstr ""
+
+#: library/functions/customizer.php:588
+msgid "Scroll Left"
+msgstr ""
+
+#: library/functions/customizer.php:589
+msgid "Scroll Right"
+msgstr ""
+
+#: library/functions/customizer.php:590
+msgid "Blind X"
+msgstr ""
+
+#: library/functions/customizer.php:591
+msgid "Blind Y"
+msgstr ""
+
+#: library/functions/customizer.php:592
+msgid "Blind Z"
+msgstr ""
+
+#: library/functions/customizer.php:593
+msgid "Cover"
+msgstr ""
+
+#: library/functions/customizer.php:594
+msgid "Shuffle"
+msgstr ""
+
+#: library/functions/customizer.php:605
+msgid "Transition Delay"
+msgstr ""
+
+#: library/functions/customizer.php:618
+msgid "Transition Length"
+msgstr ""
+
+#: library/functions/customizer.php:625
+msgid "Featured Post/ Page Slider Options"
+msgstr ""
+
+#: library/functions/customizer.php:637
+msgid "Exclude Slider post from Homepage posts?"
+msgstr ""
+
+#: library/functions/customizer.php:652
+msgid " Featured Slider Post/Page #"
+msgstr ""
+
+#: library/functions/customizer.php:661
+msgid "Social Links"
+msgstr ""
+
+#: library/functions/customizer.php:666
+#: library/structure/header-extensions.php:227
+msgid "Facebook"
+msgstr ""
+
+#: library/functions/customizer.php:667
+#: library/structure/header-extensions.php:228
+msgid "Twitter"
+msgstr ""
+
+#: library/functions/customizer.php:668
+#: library/structure/header-extensions.php:229
+msgid "Google Plus"
+msgstr ""
+
+#: library/functions/customizer.php:669
+#: library/structure/header-extensions.php:230
+msgid "Pinterest"
+msgstr ""
+
+#: library/functions/customizer.php:670
+#: library/structure/header-extensions.php:231
+msgid "Youtube"
+msgstr ""
+
+#: library/functions/customizer.php:671
+#: library/structure/header-extensions.php:232
+msgid "Vimeo"
+msgstr ""
+
+#: library/functions/customizer.php:672
+#: library/structure/header-extensions.php:233
+msgid "LinkedIn"
+msgstr ""
+
+#: library/functions/customizer.php:673
+#: library/structure/header-extensions.php:234
+msgid "Flickr"
+msgstr ""
+
+#: library/functions/customizer.php:674
+#: library/structure/header-extensions.php:235
+msgid "Tumblr"
+msgstr ""
+
+#: library/functions/customizer.php:675
+#: library/structure/header-extensions.php:236
+msgid "Myspace"
+msgstr ""
+
+#: library/functions/customizer.php:676
+#: library/structure/header-extensions.php:237
+msgid "RSS"
+msgstr ""
+
+#: library/functions/customizer.php:710
+msgid "Webmaster Tools"
+msgstr ""
+
+#: library/functions/customizer.php:720
+msgid "Code to display on Header"
+msgstr ""
+
+#: library/functions/customizer.php:721
+msgid "Note: Enter your custom header script."
+msgstr ""
+
+#: library/functions/customizer.php:733
+msgid "Code to display on Footer"
+msgstr ""
+
+#: library/functions/customizer.php:734
+msgid "Note: Enter your custom footer script."
+msgstr ""
+
+#: library/functions/functions.php:352
+msgid "By"
+msgstr ""
+
+#: library/functions/functions.php:358
+msgid "No Comments"
+msgstr ""
+
+#: library/functions/functions.php:358
+msgid "1 Comment"
+msgstr ""
+
+#: library/functions/functions.php:358
+msgid "% Comments"
+msgstr ""
+
+#: library/functions/functions.php:358
+msgid "Comments Off"
+msgstr ""
+
+#: library/functions/functions.php:377
+#: library/functions/functions.php:383
+msgid "Permalink to "
+msgstr ""
+
+#: library/functions/functions.php:404
+msgid "Read more"
+msgstr ""
+
+#: library/functions/functions.php:416
+msgid ", "
+msgstr ""
+
+#: library/functions/functions.php:422
+msgid "Tagged on: "
+msgstr ""
+
+#: library/functions/functions.php:430
+msgid "Pages:"
+msgstr ""
+
+#: library/functions/functions.php:468
+msgid "No Posts Found."
+msgstr ""
+
+#: library/functions/functions.php:469
+msgid "Try a new search."
+msgstr ""
+
+#: library/functions/functions.php:491
+msgid "&laquo; Previous"
+msgstr ""
+
+#: library/functions/functions.php:492
+msgid "Next &raquo;"
+msgstr ""
+
+#: library/functions/functions.php:509
+msgid "&larr; Previous"
+msgstr ""
+
+#: library/functions/functions.php:510
+msgid "Next &rarr;"
+msgstr ""
+
+#: library/functions/functions.php:517
+msgid "&larr;"
+msgstr ""
+
+#: library/functions/functions.php:518
+msgid "&rarr;"
+msgstr ""
+
+#: library/functions/functions.php:694
+msgid "Pingback:"
+msgstr ""
+
+#: library/functions/functions.php:694
+msgid "(Edit)"
+msgstr ""
+
+#: library/functions/functions.php:709
+msgid "Post author"
+msgstr ""
+
+#: library/functions/functions.php:715
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: library/functions/functions.php:721
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/functions/functions.php:726
+msgid "Edit"
+msgstr ""
+
+#: library/functions/functions.php:730
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: library/functions/functions.php:749
+msgid "Error 404-Page NOT Found"
+msgstr ""
+
+#: library/functions/functions.php:752
+msgid "It seems we can't find what you're looking for."
+msgstr ""
+
+#: library/functions/functions.php:753
+msgid "This might be because:"
+msgstr ""
+
+#: library/functions/functions.php:754
+msgid "You have typed the web address incorrectly, or the page you were looking for may have been moved, updated or deleted."
+msgstr ""
+
+#: library/functions/functions.php:755
+msgid "Please try the following instead:"
+msgstr ""
+
+#: library/functions/functions.php:756
+msgid "Check for a mis-typed URL error, then press the refresh button on your browser."
+msgstr ""
+
+#: library/functions/functions.php:797
+#: library/functions/functions.php:811
+msgid "Navigation"
+msgstr ""
+
+#: library/structure/archive-gallery-extensions.php:36
+msgid "No Posts for this Custom Post Type"
+msgstr ""
+
+#: library/structure/footer-extensions.php:62
+msgid "Copyright &copy;"
+msgstr ""
+
+#: library/structure/footer-extensions.php:62
+msgid "Theme by:"
+msgstr ""
+
+#: library/structure/footer-extensions.php:62
+msgid "Powered by:"
+msgstr ""
+
+#: library/structure/footer-extensions.php:91
+msgid "Back to Top"
+msgstr ""
+
+#: library/structure/header-extensions.php:256
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: library/structure/header-extensions.php:342
+msgid "Continue Reading"
+msgstr ""
+
+#: library/structure/searchform-extensions.php:20
+#: library/structure/searchform-extensions.php:21
+msgid "Search"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:17
+msgid "Side Sidebar"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:19
+msgid "Shows widgets at side."
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:28
+msgid "Footer Sidebar"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:30
+msgid "Shows widgets at footer."
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:53
+msgid "Displays Custom Tag Cloud"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:55
+msgid "Theme Horse: Custom Tag Cloud"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:107
+msgid "Title:"
+msgstr ""
+
