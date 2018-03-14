@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
 <script src="../jQuery/jquery-1.11.1.min.js"></script>
 <script>
-	<?php include("setup.php");?>
+	<?php include("setup.php"); ?>
 </script>
 <script src="chartist/chartist.js"></script>
 <link rel="stylesheet" href="chartist/chartist.css">

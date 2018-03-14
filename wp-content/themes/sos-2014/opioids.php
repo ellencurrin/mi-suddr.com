@@ -204,7 +204,7 @@ Template Name: Opioids
 				<a href="http://www.michigan.gov/stopoverdoses" target='_blank'>MDHHS: Combating the Prescription Drug and Opioid Epidemic in Michigan</a>
 			</div>
 			<div class="link">
-				<a href="www.michigan.gov/hepatitisaoutbreak" target='_blank'>MDHHS: Michigan Hepatitis A Outbreak</a>
+				<a href="https://www.michigan.gov/hepatitisaoutbreak" target='_blank'>MDHHS: Michigan Hepatitis A Outbreak</a>
 			</div>
 		</div>
 	</div>
