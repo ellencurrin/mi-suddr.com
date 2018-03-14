@@ -339,7 +339,7 @@ function expand(){
 <header>
 	<div id="hc">
 		<div id="header">
-			<a id="logo" href="http://www.mi-suddr.com" style="float:left; text-decoration:none;">
+			<a id="logo" href="../" style="float:left; text-decoration:none;">
 			  <img src="<?php echo $base; ?>mdhhs-suddr-logo.png" style="height:40px; width:auto; border:none;" border="0">
 			</a>
 			<?php wp_nav_menu( array( "menu" => 'main', 'menu_id'=> "nav", 'container' => "nav" ) ); ?>
