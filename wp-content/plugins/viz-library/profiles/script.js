@@ -51,51 +51,6 @@ function walkPath(c,p){
 	return p;
 }
 
-function makeMap(){
-	var mh = $("#map").height();
-	var map = "";
-	var features = paths.features;
-
-	sw = latLngSVG([paths.bbox[0],paths.bbox[1]]);
-	ne = latLngSVG([paths.bbox[2],paths.bbox[3]]);
-	height = Math.abs(sw[1]-ne[1]);
-	viewbox = sw[0]+" "+ne[1]+" ";
-	viewbox += Math.abs(sw[0]-ne[0])+" "+height;
-
-	map += "<svg width='100%' height='100%' style='display:block; margin:0;' viewbox='"+viewbox+"' >";
-	map += "<g stroke-width='"+((height/mh)*1.5)+"' > ";
-	for( f in features){
-		// var x = features[f]["properties"][gt_join];
-		var color = "#EeEeEe";
-		// if( typeof data[x] !== "undefined" ){
-		// 	var val = data[x][current_series][current_column];
-		// 	color = getHex(minColor, maxColor, val, axis_max);
-		// 	}
-
-		var path = "";
-
-		var geometry = features[f].geometry;
-		if(geometry.type == "Polygon"){
-			path = walkPath(geometry.coordinates);
-		}
-		else if(geometry.type == "MultiPolygon"){
-			path = "";
-			for(x in geometry.coordinates){
-				path += walkPath(geometry.coordinates[x]);
-			}
-		}
-
-		var county = features[f].properties.name;
-		map += "<path class='unit' d='"+path+" z' style='fill:"+color+"' data-county='"+county+"'/>";
-	}
-
-	map += "<path id='highlight' d='M 0 0 l 0 0 0 0 z'  style='fill:none;' fill='none' />";		
-	map += "</g>";
-	map += "</svg>";
-
-	$("#map").html(map)
-}
-
 function content(c){
 	var url = "get_data.php?county="+c;
 	var x;
@@ -140,12 +95,65 @@ function content(c){
 			$(this).width(pct).attr({"data-pct":pct});
 			r[5]-=r[i];
 			});
-			
+		console.log("content")	
 	});
 }
 
-$(document).ready(function(){
+function makeMap(){
+	var mh = $("#map").height();
+	var map = "";
+	var features = paths.features;
 
+	sw = latLngSVG([paths.bbox[0],paths.bbox[1]]);
+	ne = latLngSVG([paths.bbox[2],paths.bbox[3]]);
+	height = Math.abs(sw[1]-ne[1]);
+	viewbox = sw[0]+" "+ne[1]+" ";
+	viewbox += Math.abs(sw[0]-ne[0])+" "+height;
+
+	map += "<svg width='100%' height='100%' style='display:block; margin:0;' viewbox='"+viewbox+"' >";
+	map += "<g stroke-width='"+((height/mh)*1.5)+"' > ";
+	for( f in features){
+		// var x = features[f]["properties"][gt_join];
+		var color = "#D4E3C8";
+		// if( typeof data[x] !== "undefined" ){
+		// 	var val = data[x][current_series][current_column];
+		// 	color = getHex(minColor, maxColor, val, axis_max);
+		// 	}
+
+		var path = "";
+
+		var geometry = features[f].geometry;
+		if(geometry.type == "Polygon"){
+			path = walkPath(geometry.coordinates);
+		}
+		else if(geometry.type == "MultiPolygon"){
+			path = "";
+			for(x in geometry.coordinates){
+				path += walkPath(geometry.coordinates[x]);
+			}
+		}
+
+		var county = features[f].properties.name;
+		map += "<path class='unit' d='"+path+" z' style='fill:"+color+"' data-county='"+county+"'/>";
+	}
+
+	map += "<path id='highlight' d='M 0 0 l 0 0 0 0 z'  style='fill:none;' fill='none' />";		
+	map += "</g>";
+	map += "</svg>";
+	console.log("making map")
+	$("#map").html(map)
+
+//DEFAULT TO WAYNE COUNTY	
+	content('Wayne')
+	$("#instructions").fadeOut();
+	window.current = $('.unit[data-county="Wayne"')[0]
+	window.current.style.fill = "pink";
+
+
+}
+
+
+$(document).ready(function(){
 	$(window).resize(function(){layout();});
 	
 	$("body").on("mouseover",".brownie dd", function(e){
@@ -187,14 +195,16 @@ $(document).ready(function(){
 		$("#popup").delay(200).fadeOut(100);
 		});
 
+//SELECTING THE COUNTY HERE
 	$("body").on("click",".unit",function(){
-		if(window.current){ window.current.style.fill = "#EeEeEe"}
+		if(window.current){ window.current.style.fill = "#D4E3C8"}
 		window.current = this;		
 		this.style.fill = "pink";
 		var county = $(this).attr("data-county");
 		content(county);
 		$("#instructions").fadeOut();
 		});
+///////////////////////////
 
 	$("body").on("click",".section b",function(){
 		$(this).hide().parent().addClass("engaged");				
@@ -219,6 +229,9 @@ $(document).ready(function(){
 			$(".section").css({"height":"auto","padding":"10px 0px"}).fadeTo(400,1);
 			$("b").fadeIn()
 			});
+
+
+
 
 	});
 

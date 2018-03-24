@@ -299,12 +299,14 @@ function createQuery(){
 			<?php include("filter.php"); ?>
 		</div>
 	</div>
-	<div id="profiles" style="background:#AfAfAf; width:100%; margin:0px 0px; border-top:10px solid white;">
-	    <div style="font: bold normal 24px/35px Arial, san-serif; color: white; overflow: hidden; text-align: center; background: gray; border-top: 2px solid #ABABAB;
-  border-bottom: 2px solid #595959;">
-			COMMUNITY PROFILES
-	</div>
-		<iframe src="http://www.mi-suddr.com/wp-content/plugins/viz-library/profiles/" style="width:1000px; margin:10px auto; display:block; height:500px; border:0;" ></iframe>
+	<div id="profiles" style="background:#E0EEFF; width:100%; margin:0px 0px; border-top:10px solid white;">
+	    <div style="font: bold normal 24px/35px Arial, san-serif; color: white; overflow: hidden; text-align: center;background-color: #0F4FA8;">
+			<p style="margin: 0px;">COMMUNITY PROFILES</p>
+		</div>
+		<div>
+			<h5 style="margin: 10px 0 10px 0; text-align: center;">CLICK ON ANY COUNTY TO EXPLORE ITS DEMOGRAPHICS.</h5>
+		</div>	
+		<iframe src="./wp-content/plugins/viz-library/profiles/" style="width:1000px; margin:10px auto; display:block; height:500px; border:0;" ></iframe>
 		<!-- <iframe src="http://localhost/~nicholas/mi-suddr/wp-content/plugins/viz-library/profiles/" style="width:1000px; margin:10px auto; display:block; height:500px; border:0;" ></iframe> -->
 	</div>
 </div>

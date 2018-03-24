@@ -7,7 +7,7 @@
 </script>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
-<body onload="layout(); makeMap();">
+<body onload="layout(); makeMap();" style="background-color: #E0EEFF">
 <div id="m_opts">
 	
 </div>
@@ -17,7 +17,7 @@
 <div id="instructions" style="color:#EeEeEe; font-weight:bold; font-size:34px;">
 	Click on a county to explore its demographics.
 </div>	
-<div id="sidebar">
+<div id="sidebar" style="background-color: #BFCFE3">
 	
 	<h4 id="cname">Ingham County</h4>
 	<div class="section">

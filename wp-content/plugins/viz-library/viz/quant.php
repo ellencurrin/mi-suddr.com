@@ -93,6 +93,7 @@ foreach($DATA as $k=>$s){
 	$u_opts .= "<label class='opts'><input class='uOpts' type='checkbox' value='{$k}' checked/>{$k}</label>";
 	}
 
+
 $d_opts = "";
 $m_opts = "";
 $i = 0;
@@ -156,7 +157,7 @@ foreach($series as $s){
 <!-- <script src="http://www.mi-suddr.com/wp-content/plugins/viz-library/jQuery/jquery-1.11.1.min.js"></script> -->
 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <script src="quant_script.js"></script>
-<script>
+<script>	
 
 var series = <?php echo json_encode($series); ?>;
 var current_series = series[0];
@@ -349,7 +350,10 @@ var subheader = "<?php  if($c > 1){ echo implode($subheader); }?>";
 		</div>
 		<div id="units" class="optgroup" style="margin-right:0px;">
 			<h4>Counties</h4>
-			<?php  echo $u_opts; ?>
+			<label id='ChkAll' class='opts'><input class='uOpts' type='checkbox' checked/>SELECT ALL</label> 
+			<p id='checkBoxes'>
+				<?php  echo $u_opts; ?>
+			</p>	
 		</div>
 		<?php if($i>1): ?>
 		<div id="dsets" class="optgroup" style="margin-right:0px;">
@@ -376,5 +380,28 @@ var subheader = "<?php  if($c > 1){ echo implode($subheader); }?>";
 	<input name="img_title" type="hidden" value="<?php echo $v["title"]; ?>">
 </form>
 <iframe id="csv" name="csv" style="display:none;" ></iframe>
+
+<script type="text/javascript">
+
+	$("#checkBoxes").on("change", function () {
+	    console.log( "a box has been clicked!" );
+	    if (!$(this).prop("checked")) {
+	        $("#ChkAll").prop("checked", false);
+	    }
+	    if ($(this).prop("checked")) {
+	        $("#ChkAll").prop("checked", false);
+	    }
+	});
+
+	//$(function () {
+	    var $tblChkBox = $("#checkBoxes input:checkbox");
+	    $("#ChkAll").on("click", function () {
+	    	console.log( "clicked!" );
+	        $($tblChkBox).prop('checked', $(this).prop('checked'));
+	    })
+	//})
+
+</script>
+
 </body>	
 </html>

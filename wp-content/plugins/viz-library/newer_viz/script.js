@@ -402,7 +402,7 @@ var colors = 	["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c","#fdb
 	"#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"];
 
 $(document).ready(function(){
-	
+	console.log("script.js");
 	var w = 0; 
 	$(".label").each(function(){ 
 		var x = $(this).outerWidth(); 
