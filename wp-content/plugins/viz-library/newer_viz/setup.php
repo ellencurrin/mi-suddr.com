@@ -123,7 +123,7 @@ while($classes > 0){
 	$patch = round($lmax,1);	
 	$lmax = $lmax - $increment;
 	$patch = round($lmax,1).$data_unit." to ".$patch.$data_unit;
-	// $c = getHex($minColor,$maxColor,$lmax,$max);
+	//$c = getHex($minColor,$maxColor,$lmax,$max);
 	$class["mn"] = $lmax; $class["hex"]=$c;
 	array_push($l_classes, $class);
 	$legend .= "<li  style='background:$c'><b>$patch</b></li>";

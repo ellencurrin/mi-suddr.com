@@ -161,7 +161,7 @@ function prep_labels(arr){
 	        var abbrev = "'" + digits[2] + digits[3]
 	        newseries.push(abbrev)
 	    }
-	    //$(".ct-label").css("font-size", "0.5rem")
+	    // $(".ct-label").css("font-size", "0.5rem")
 	} 
 	console.log(newseries)
     return newseries;
@@ -208,6 +208,14 @@ function makeSideBar(d){
 		}),
 		low: 0
 	});
+
+	chart.on('created', function() {
+		if (series.length > 6) {
+		    $(".ct-label.ct-horizontal").css("font-size", "0.5rem")
+			console.log("Chart created");
+		}	
+	});
+
 ///////////
 }
 
