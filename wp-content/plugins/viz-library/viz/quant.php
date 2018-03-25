@@ -383,23 +383,15 @@ var subheader = "<?php  if($c > 1){ echo implode($subheader); }?>";
 
 <script type="text/javascript">
 
-	$("#checkBoxes").on("change", function () {
-	    console.log( "a box has been clicked!" );
-	    if (!$(this).prop("checked")) {
-	        $("#ChkAll").prop("checked", false);
-	    }
-	    if ($(this).prop("checked")) {
-	        $("#ChkAll").prop("checked", false);
-	    }
+	$("#ChkAll input").on("change", function () {
+	    $("#checkBoxes label input").prop("checked", $(this).prop("checked"))
 	});
 
-	//$(function () {
-	    var $tblChkBox = $("#checkBoxes input:checkbox");
-	    $("#ChkAll").on("click", function () {
-	    	console.log( "clicked!" );
-	        $($tblChkBox).prop('checked', $(this).prop('checked'));
-	    })
-	//})
+	$("#checkBoxes label input").on("change", function () {
+		if (!$(this).prop("checked")) {
+			$("#ChkAll input").prop("checked", false);
+		}
+	})
 
 </script>
 
