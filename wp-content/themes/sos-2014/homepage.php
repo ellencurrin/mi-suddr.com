@@ -288,7 +288,7 @@ function createQuery(){
 	</div>
 </div> -->
 
-<div id="mc" style="border-top:10px solid #0F4FA8;">
+<div id="mc" style="border-top:10px solid #214478;">
 	<div id="filter">
 		<div style="float:left; width:178px; padding:0px 20px; text-align:right; overflow:hidden;">
 		    <h3 style="margin:0px 0px 10px 0px; font:bold normal 35px/35px Arial, san-serif; color:white; overflow:hidden;">
@@ -300,7 +300,7 @@ function createQuery(){
 		</div>
 	</div>
 	<div id="profiles" style="background:#E0EEFF; width:100%; margin:0px 0px; border-top:10px solid white;">
-	    <div style="font: bold normal 24px/35px Arial, san-serif; color: white; overflow: hidden; text-align: center;background-color: #0F4FA8;">
+	    <div style="font: bold normal 24px/35px Arial, san-serif; color: white; overflow: hidden; text-align: center;background-color: #214478;">
 			<p style="margin: 0px;">COMMUNITY PROFILES</p>
 		</div>
 		<div>

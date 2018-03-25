@@ -58,6 +58,7 @@ function table_sort(column,order){
 	$("#dtable").html("").append(x).append(w);
 }
 
+// THIS DOESN'T SEEM TO BE RELEVANT
 function barchart(data,series,columns){
 	var bars = "";
 	var legend = "";
@@ -140,11 +141,31 @@ function barchart(data,series,columns){
 	var w = $("#chart_legend li div").first().outerWidth()+$(".bdisplay").last().outerWidth()+55;
 	$("#bars").width(left+w);
 	
-}
+} 
+/////////////////
 
 function sbclose(){
 	$("#sidebar").fadeOut();
 	}
+
+var newseries
+
+function prep_labels(arr){
+    newseries = arr
+    console.log(newseries)
+    if (arr.length > 6) {
+    	console.log("toobig");
+    	newseries = []
+	    for (var i = 0; i < arr.length; i++) {
+	        var digits = (""+arr[i]).split("")
+	        var abbrev = "'" + digits[2] + digits[3]
+	        newseries.push(abbrev)
+	    }
+	    //$(".ct-label").css("font-size", "0.5rem")
+	} 
+	console.log(newseries)
+    return newseries;
+}
 
 function makeSideBar(d){
 	var values = [];
@@ -166,9 +187,12 @@ function makeSideBar(d){
 	}
 	$("#sidebar").html(html);
 
+// MAKES GRAPH
+    prep_labels(series)
+    //console.log(series)
 
 	var chart = new Chartist.Line('.ct-chart', {
-		labels: series,
+		labels: newseries,
 		series: [values]
 		}, {
 		fullWidth: false,
@@ -184,7 +208,7 @@ function makeSideBar(d){
 		}),
 		low: 0
 	});
-
+///////////
 }
 
 function makeTable(units,series,columns){
@@ -500,11 +524,13 @@ $(document).ready(function(){
 		}
 	paths.features = nf;
 
+// THESE DON'T SEEM TO BE RELEVANT
 	makeMap();
 	barchart(data,series,[current_column] );
 	makeTable(data,series,[current_column] );
 	});
-	
+//////////////
+
 	var PlayData = {
 		i:0,
 		s:series.length-1,
